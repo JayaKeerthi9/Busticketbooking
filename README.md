@@ -36,4 +36,4 @@ After booking a ticket user is redirected to the payment page
 
 ![image](https://user-images.githubusercontent.com/101186430/158006925-4b1e02b3-80fe-4e77-9d76-842c3d16aa87.png)
 
-We have created a chatBot using JavaScript.If the user has any doubt he can clarify doubts using the chatBot
+We have created a chatBot using JavaScript.If the user has any doubt he/she can clarify doubts using the chatBot
