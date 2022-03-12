@@ -1,0 +1,27 @@
+#loader
+ {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3b68ab;
+  width: 150px;
+  height: 150px;
+  margin: 10vw;
+  animation: spin 2s linear ;
+}
+@keyframes spin 
+{
+  0% {transform: rotate(0deg);}
+  25%{transform: rotate(70deg);}
+  50%{transform: rotate(140deg);}
+  100%{transform: rotate(360deg);}
+}
+#div1
+{
+	font-family: gabirola , serif;
+}
+#p1
+{
+	font-family: gabirola , serif;
+	font-weight: bold;
+	font-size: 2vw;
+}

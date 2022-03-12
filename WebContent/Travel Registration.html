@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<title> Registration </title>
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="regstyle.css">
+	</head>
+	<body>
+	<header>
+		<div class="div6" class="w3-container w3-mobile">
+			<div class=" w3-container w3-bar w3-mobile w3-black w3-card-5">
+			<a href="Travel Home.html" class="w3-bar-item w3-button w3-mobile w3-green"><i class="fa fa-home"></i></a>
+			<a href="Travel Aboutus.html" class="w3-bar-item w3-button w3-mobile">About Us </a>
+			<a href="Travel Contactus.html" class="w3-bar-item w3-button w3-mobile">Contact us </a>
+			<a href="Travel Busticket.html" class="w3-bar-item w3-button w3-mobile">Book Ticket </a>
+			<div class="w3-container w3-mobile w3-dropdown-hover">
+				<button class="w3-button">Login</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-2">
+					<a href="Travel login.html" class="w3-bar-item w3-button w3-mobile">Sign in</a>
+				</div>
+			</div>
+			<a href="logout.jsp" class="w3-bar-item w3-button w3-mobile">Logout </a>
+		</div>
+	<header>
+	<div class="div5">
+		<div class="w3-container w3-mobile" id="div2">
+			<h1> REGISTRATION </h1>
+		</div>
+		<center>
+		<div class="w3-container w3-mobile w3-padding-14 " id="div3">
+		<form class="w3-container w3-mobile w3-border" id="form1" action="registerServlet" method="get">
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Name : </label>
+			    <input class="w3-input w3-border w3-bar-item w3-right w3-card" name="name" type="text" placeholder="Enter your name" required autofocus>
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Email: </label>
+				<input class="w3-input w3-border w3-bar-item w3-right w3-card" name="email" type="email" placeholder="Enter your email" required>
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Mobile: </label>
+				<input class="w3-input w3-border w3-bar-item w3-right w3-card" name="mobile" type="text" placeholder="Enter your mobileno" required>
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item">Gender : </label>
+				<label class="w3-bar-item w3-right">Female</label>
+				<input class="w3-radio w3-bar-item w3-right" type="radio" name="gender" value="female">
+				<label class="w3-bar-item w3-right">Male</label>
+				<input class="w3-radio w3-bar-item w3-right" type="radio" name="gender" value="Male">
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Password: </label>
+				<input class="w3-input w3-border w3-bar-item w3-right w3-card" name="password" type="password" placeholder="Password" required>
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Confirm Password: </label>
+				<input class="w3-input w3-border w3-bar-item w3-right w3-card" name="confirmpassword" type="password" placeholder="Confirm Password" required>
+			</div>
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" id="div3">
+				<button class="w3-button w3-border w3-ripple w3-round-large w3-green">Submit</button>
+				<button class="w3-button w3-border w3-ripple w3-round-large w3-green">Reset</button>
+			</div>
+			</form>
+			</div>
+			</center>
+			</div>
+			<footer >
+				<p>Copyright &#169 2020 Dream Casters. All rights reserved.</p>
+			</footer>
+	</body>
+</html>
+			
+				

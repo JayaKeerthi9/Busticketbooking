@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> HOME </title>
+		<meta name="viewport" content="width=device-width , initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href = "stylesheet3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
+<link href='https://fonts.googleapis.com/css?family=Ravi Prakash' rel='stylesheet'>
+		
+		
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="chatbotstyle.css" type="text/css">
+	<meta name = "viewport" content="width=device-width , initial-scale=1.0">
+	<script>
+		function chat()
+		{
+			var msg = document.getElementById("userip").value;
+			var bot = {"hi":"Hai!","hai":"Hi!","hello":"Hello!","hey":"Hello!"};
+			var botname = {"your name":"My name is chatbot","name":"My name is chatbot","u r name":"My name is chatbot"};
+			var response = {"how are you":"Good","how r u":"Good","ok":":)"};
+			document.getElementById("p1").innerHTML += "</br>"+msg +"</br>";
+			if(msg in bot)
+			{	
+				document.getElementById("p1").innerHTML += bot[msg] +"</br>";
+			}
+			else if(msg in botname)
+			{
+				document.getElementById("p1").innerHTML += botname[msg] +"</br>";
+			}
+			else if(msg in response)
+			{
+				document.getElementById("p1").innerHTML += response[msg] +"</br>";
+			}
+			else
+			{
+				document.getElementById("p1").innerHTML ="Sorry! I dont understand";
+			}
+		}
+		function w3_open() 
+		{
+			document.getElementById("image").style.display = "block";
+		}
+		function w3_close() 
+		{
+			document.getElementById("image").style.display = "none";
+		}
+	</script>
+</head>
+
+	<body>
+
+		<div class="div6" class="w3-container w3-mobile">
+			<div class=" w3-container w3-bar w3-mobile w3-black w3-card-5">
+			<a href="Travel Home.html" class="w3-bar-item w3-button w3-mobile w3-green"><i class="fa fa-home"></i></a>
+			<a href="Travel Aboutus.html" class="w3-bar-item w3-button w3-mobile">About Us </a>
+			<a href="Travel Contactus.html" class="w3-bar-item w3-button w3-mobile">Contact us </a>
+			<!-- <a href="Travel Busticket.html" class="w3-bar-item w3-button w3-mobile">Book Ticket </a>-->
+			<div class="w3-container w3-mobile w3-dropdown-hover">
+				<button class="w3-button">Login</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-2">
+					<a href="Travel login.html" class="w3-bar-item w3-button w3-mobile">Sign in</a>
+					</div>
+			</div>
+			<a href="logout.jsp" class="w3-bar-item w3-button w3-mobile">Logout </a>
+		</div>
+		<span class="divtxt">
+				<h2><q> We're bringing you to a new level of comfort!. </q></h2>
+		</span>
+	    </div>
+	</section>
+	<button class="btn" onclick="w3_open()" id="btn"><img src="avatar3.jpg" class="w3-circle" style="width:85px;"/></button>
+<center>
+<div class="chat" class="w3-container w3-mobile" id="image">
+		<button class="w3-bar-item w3-button w3-large w3-padding-16" onclick="w3_close()">Close &nbsp &times;</button>
+		<center><p id="p1">Travel Bot <br/> Steps For Booking Ticket <br/>  Go to <b>REGISTRATION</b> and register<br/> if You already register Go to <b>LOGIN</b> Page <br/>Then Go to Book Ticket And Book The Ticket<br/>Have A Nice Day</p></br>
+		<input type="text" id="userip" onkeydown="if(event.which==13){chat()}" autofocus></center>
+</div>
+</center>
+	<div class=" w3-container w3-mobile w3-display-bottomleft">
+	
+	<footer >
+		<p>Copyright &#169 2020 Dream Casters. All rights reserved.</p>
+	</footer>
+	</div>
+	</body>
+</html>

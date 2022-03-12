@@ -1,0 +1,44 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.divbox
+{
+	position: absolute;
+	display: flex;
+	width: 650px;
+	height: 380px;
+	box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+	background: linear-gradient(to left, #d74177 0%, #ffe98a 100%);
+	left: 450px;
+	top: 250px;
+	border-radius: 10px;
+}
+.left
+{
+	width: 35%;
+	padding-left: 0px;
+	padding-top: 100px;
+	background: linear-gradient(to right, #33fcff 0%, #33ccff  100%); 
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-family: 'Ravi Prakash';
+}
+.right
+{
+	width: 65%;
+}
+h3,h2,h4
+{
+	padding-top: 20px;
+		font-family: Rancho;
+	
+}
+.info
+{
+	font-family: gabirola;
+	padding-top: 10px;
+	font-size: 1.5vw;
+}

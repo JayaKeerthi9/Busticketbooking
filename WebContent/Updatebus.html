@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UPDATE BUS</title>
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="addbus.css">
+</head>
+<body>
+<div class="div6" class="w3-container w3-mobile">
+		<div class=" w3-container w3-bar w3-mobile w3-black w3-card-5">
+			<a href="#" class="w3-bar-item w3-button w3-mobile w3-green"><i class="fa fa-home"></i></a>
+			<a href="Travel Aboutus.html" class="w3-bar-item w3-button w3-mobile">About Us </a>
+			<a href="Travel Contactus.html" class="w3-bar-item w3-button w3-mobile">Contact us </a>
+			<a href="Travel Busticket.html" class="w3-bar-item w3-button w3-mobile">Book Ticket </a>
+			<div class="w3-container w3-mobile w3-dropdown-hover">
+				<button class="w3-button">Login</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-2">
+					<a href="Travel login.html" class="w3-bar-item w3-button w3-mobile">Sign in</a>
+				</div>
+			</div>
+			<a href="Travel Home.html" class="w3-bar-item w3-button w3-mobile">Logout </a>
+	</div>
+	<div class="w3-sidebar w3-light-grey w3-bar-block w3-animate-left" style="width:15%,display:none" id="sidebar">
+		<button class="w3-bar-item w3-button w3-large w3-padding-16" onclick="w3_close()">Close &nbsp &times;</button>
+		<a href="ADDBUS.html" class="w3-bar-item w3-button w3-padding-16 ">ADD BUS &nbsp <i class="fa fa-bus w3-large"></i></a>
+		<a href="Deletebus.html" class="w3-bar-item w3-button w3-padding-16 ">DELETE BUS &nbsp <i class="material-icons">delete</i></a>
+		<a href="Updatebus.html" class="w3-bar-item w3-button w3-padding-16 ">UPDATE BUS &nbsp <i class="material-icons">refresh</i></a>
+		<a href="Viewbus.html" class="w3-bar-item w3-button w3-padding-24 ">VIEW BUS &nbsp <i class="fa fa-search"></i></a>
+		<a href="seatInformation.html" class="w3-bar-item w3-button w3-padding-24 ">SEAT INFORMATION &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<i class="fa fa-male"></i></a>
+	</div> <i class="material-icons"></i></a>
+	</div>
+	<div>
+		<button class="w3-button w3-white w3-large" onclick="w3_open()">&#9776;</button>
+	</div>
+	<div class="div5">
+		<div class="w3-container w3-mobile" id="div2">
+			<center><h1><b>UPDATE BUS<b></h1></center>
+		</div>
+		<center>
+		<div class="w3-container w3-mobile w3-padding-14 " id="div3">
+		<form class="w3-container w3-mobile w3-border w3-round" id="form1" method="get" action="updatebus.jsp">
+			<div class="w3-container w3-mobile w3-bar w3-padding-16" class="div1">
+				<label class="w3-bar-item"> Enter Busid:</label>
+			    <input class="w3-input w3-border w3-bar-item w3-right w3-card" name="busid" type="text" placeholder="Enter Bus ID" required autofocus>
+			</div>
+			<div class="w3-container w3-mobile w3-padding-16 w3-margin-right" class="div1" >
+				<label class='lvl'>Select option to Update</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="bname">
+				<label class="lvl">Bus Name</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="btype">
+				<label class="lvl">Bus Type</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="bstartloc" >
+				<label class="lvl">Bus START LOCATION</label><br/><br/>
+				<input class="w3-radio " type="radio" name="bupdate" value="bendloc">
+				<label class="lvl">Bus END LOCATION</label><br/><br/>
+				<input class="w3-radio " type="radio" name="bupdate" value="bstarttimehrs" >
+				<label class="lvl" >BusStart Time(HRS)</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="bstarttimemin">
+				<label class="lvl">BusStart Time(MIN)</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="barrtimehrs">
+				<label class="lvl">BusArrival Time(HRS)</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="barrtimemin">
+				<label class="lvl">BusArrival Time(MIN)</label><br/><br/>
+				<input class="w3-radio" type="radio" name="bupdate" value="bfare">
+				<label class="lvl">Bus Fare</label><br/><br/>
+				<label >Enter Update Value</label>
+				<input  type="text" name="text" placeholder="Enter Update Value" >
+			</div>
+			
+			<div class="w3-container w3-mobile w3-bar" id="div3">
+				<button class="w3-button w3-border w3-ripple w3-round-large w3-green w3-bar-item w3-right" onclick="#">SUBMIT</button>
+			</div>
+			<div class="w3-container w3-mobile w3-bar" id="div3">
+				<button class="w3-button w3-border w3-ripple w3-round-large w3-green w3-bar-item " onclick="#">CANCEL</button>
+			</div>
+		</form>
+		</div>
+		</center>
+		</div>
+		<script>
+		function w3_open() 
+		{
+			document.getElementById("sidebar").style.display = "block";
+		}
+		function w3_close() 
+		{
+			document.getElementById("sidebar").style.display = "none";
+		}
+		</script>
+</body>
+</html>

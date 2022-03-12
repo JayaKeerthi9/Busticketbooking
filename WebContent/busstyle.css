@@ -1,0 +1,46 @@
+#div2
+{
+	margin-top: 10px;
+	padding: 35px;
+	width: 45%;
+	height: 60%;
+	display: inline-block;
+}
+#div3
+{
+	margin-left: 0.1vw;
+	margin-right: 3vw;
+}
+#div4
+{
+	text-align: center;
+	font-family: Gabirola, serif;
+	font-weight: bold;
+	margin-top: 3vw;
+}
+html,body
+{
+
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	background-image: url("homepage7.jpg");
+	min-height: 620px;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	margin-top: 0;
+	padding-top: 0;
+	position: relative;
+}
+
+#form1
+{
+	background-color: snow;
+}
+label
+{
+	font-weight: bold;
+}

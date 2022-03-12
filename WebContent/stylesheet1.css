@@ -1,0 +1,48 @@
+#div1
+{
+	font-style: italic;
+	font-size: 2vw;
+	font-family: cambria , serif;
+	color: rgb(72, 61, 139);
+	margin-left: 3vw;
+	display:inline-block;
+	line-height: 1vw;
+}
+#p1
+{
+	font-size: 3vw;
+	font-weight: bold;
+}
+#div2
+{
+	float: right;
+	object-fit: cover;
+}
+#div3
+{
+	background-color:snow;
+	color: black;
+	font-family: gabirola , serif;
+	padding: 1vw;
+	font-style: italic;
+	font-size: 1.5vw;
+	text-align: justify;
+	line-height: 1vw;
+}
+body , html
+{
+	background-color: snow;
+}
+a:link
+{
+	color: dodgerblue;
+}
+a:visited
+{
+	color: dodgerblue;
+}
+a:hover
+{
+	color: hotpink;
+}
+

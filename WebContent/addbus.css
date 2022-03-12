@@ -1,0 +1,60 @@
+body , html
+{
+	height: 100%;
+	margin: 0;
+	background-image: url("homepage2.jpg");
+	min-height: 500px;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#div3
+{
+	margin-top: 15px;
+	padding: 25px;
+	width: 45%;
+	height: 50%;
+	display: inline-block;
+}
+label
+{
+	font-weight: bold;
+}
+#form1
+{
+	background-color: #FFFAFA;
+	border-radius: 15px;
+	border: black;
+	display: inline-block;
+	align : center;
+}
+
+
+
+table,tr,td
+{
+font-family: "Trebuchet MS",gabirola , serif;
+border: 1px groove ;
+border-collapse: collapse;
+font-size: 1.8vw;
+padding: 8px;
+}
+
+tr:nth-child(even)
+{
+	background-color : #f2f2f2;
+	
+}
+
+input[type=radio]
+{
+	float: left;
+	margin-right: 10px;
+}
+.lvl
+{
+	float: left;
+	margin-right: 15px;
+	
+}

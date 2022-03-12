@@ -1,0 +1,106 @@
+html,body
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	background-image: url("busimage21.jpg");
+	min-height: 620px;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	margin-top: 0;
+	padding-top: 0;
+	position: relative;
+}
+
+input[type=submit]
+{
+background: linear-gradient(to left, #0066ff 0%, #00ffff 100% ) ;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 1.5vw;
+	
+	 
+
+}
+label
+{
+	font-weight: bold;
+	font-family: gabirola , serif;
+	font-size: 2vw;
+}
+#div2
+{
+	padding-top: 10vw;
+	font-family: gabirola, serif;
+	font-style: italic;
+}
+
+input[type=text],[type=password]
+{
+	border-radius: 1vw;
+	box-shadow: 1px 1px;
+	border-width: 1px;
+	height: 2vw;
+	font-size: 1.5vw;
+}
+.div6
+{
+	bacground-color: black;
+	padding-top: 0px;
+	margin-top: 0;
+}
+.div3
+{
+	padding-top: 0vw;
+	margin-top: 0vw;
+	margin-left: 0vw;
+	margin-right: 0vw;
+	max-width: 200px;
+	position: relative;
+}
+.div4
+{
+	margin-left: 0vw;
+	margin-right: 0vw;
+	display: block;
+	height: 100px;
+}
+.div1
+{
+	margin-left: 20px;
+	padding: 0px;
+	font-size: 30 vw;
+	border : 20px;
+}
+#form2
+{
+	padding-top: 0vw;
+	margint-top: 0vw;
+}
+
+table,tr,td
+{
+font-family: "Trebuchet MS",gabirola , serif;
+border: 2px groove ;
+border-collapse: collapse;
+font-size: 1.8vw;
+padding: 8px;
+}
+
+tr:nth-child(even)
+{
+	background-color : #f2f2f2;
+	
+}
+
+
+
+
+
+	

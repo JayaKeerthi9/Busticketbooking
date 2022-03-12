@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="loader.css">
+</head>
+<body onload="myTime()" style="margin:0;">
+<center>
+<div id="loader" class="w3-container w3-mobile w3-middle">
+</div>
+<p id="p1"> Payment is processing...!</p>
+</center>
+<div class="animate-bottom" style="display:none;" id="Div1">
+<form action="paymentdisplay.jsp" method="get">
+</form>
+</div>
+<script>
+function myTime()
+ {
+    var time = setTimeout(showPage, 3000);
+	var time1 = setTimeout(Timeout , 3000);
+}
+function showPage() 
+{
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("Div1").style.display = "block";
+}
+function Timeout()
+{
+	document.getElementById("p1").style.display = "none";
+}
+</script>
+</body>
+</html>

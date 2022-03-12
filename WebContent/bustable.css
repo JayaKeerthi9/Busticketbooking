@@ -1,0 +1,70 @@
+body , html
+{
+height: 100%;
+margin: 0;
+background-image: url("busimage7.jpg");
+min-height: 1000px;
+height: 100%;
+max-height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+max-width: 100%
+}
+table,tr,td
+{
+font-family: 'Comic Sams Ms',gabirola;
+border: 1px groove ;
+border-collapse: collapse;
+font-size: 2vw;
+}
+input[type=submit]
+{
+background: linear-gradient(to left, #0066ff 0%, #00ffff 100% ) ;
+	color: white;
+	cursor: pointer;
+	border-radius: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 1.5vw;
+	
+	 
+
+}
+input[type=text],[type=password],[type=email]
+{
+border-radius: 3vw;
+box-shadow: 1px 1px;
+border-width: 1px;
+height: 3vw;
+font-weight: bold;
+font-size: 1.5vw;
+}
+select
+{
+font-family: gabirola , serif;
+margin-top: 5vw;
+font-size: 1.8vw;
+}
+
+label{
+	font-weight: bold;
+	font-size: 1.5vw;
+	
+}
+
+table,tr,td
+{
+font-family: "Trebuchet MS",gabirola , serif;
+border: 1px groove ;
+border-collapse: collapse;
+font-size: 1.8vw;
+padding: 8px;
+}
+
+tr:nth-child(even)
+{
+	background-color : #f2f2f2;
+	
+}
+

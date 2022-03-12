@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> CHAT BOT </title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="chatbotstyle.css" type="text/css">
+	<meta name = "viewport" content="width=device-width , initial-scale=1.0">
+	<script>
+		function chat()
+		{
+			var msg = document.getElementById("userip").value;
+			var bot = {"hi":"Hai!","hai":"Hi!","hello":"Hello!","hey":"Hello!"};
+			var botname = {"your name":"My name is chatbot","name":"My name is chatbot","u r name":"My name is chatbot"};
+			var response = {"how are you":"Good","how r u":"Good","ok":":)"};
+			document.getElementById("p1").innerHTML += "</br>"+msg +"</br>";
+			if(msg in bot)
+			{	
+				document.getElementById("p1").innerHTML += bot[msg] +"</br>";
+			}
+			else if(msg in botname)
+			{
+				document.getElementById("p1").innerHTML += botname[msg] +"</br>";
+			}
+			else if(msg in response)
+			{
+				document.getElementById("p1").innerHTML += response[msg] +"</br>";
+			}
+			else
+			{
+				document.getElementById("p1").innerHTML ="Sorry! I dont understand";
+			}
+		}
+		function w3_open() 
+		{
+			document.getElementById("image").style.display = "block";
+		}
+		function w3_close() 
+		{
+			document.getElementById("image").style.display = "none";
+		}
+	</script>
+</head>
+<button class="btn" onclick="w3_open()" id="btn"><img src="avatar2.jpg" class="w3-circle" style="width:85px;"/></button>
+<center>
+<div class="chat" class="w3-container w3-mobile" id="image">
+		<button class="w3-bar-item w3-button w3-large w3-padding-16" onclick="w3_close()">Close &nbsp &times;</button>
+		<center><p id="p1">CHAT</p></br>
+		<input type="text" id="userip" onkeydown="if(event.which==13){chat()}" autofocus></center>
+</div>
+</center>
+</body>
+</html>

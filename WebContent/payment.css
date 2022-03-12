@@ -1,0 +1,67 @@
+#div2
+{
+padding-top: 10vw;
+}
+input[type=submit]
+{
+background-color: purple;
+color: white;
+cursor: pointer;
+}
+input[type=text],[type=password]
+{
+border-radius: 1vw;
+box-shadow: 1px 1px;
+border-width: 1px;
+height: 2vw;
+}
+.div6
+{
+bacground-color: black;
+padding-top: 0px;
+margin-top: 0;
+}
+.div3
+{
+padding-top: 0vw;
+margin-top: 0vw;
+margin-left: 0vw;
+margin-right: 0vw;
+max-width: 200px;
+position: relative;
+}
+.div4
+{
+margin-left: 0vw;
+margin-right: 0vw;
+display: block;
+height: 100px;
+}
+.div1
+{
+margin-left: 20px;
+padding: 0px;
+}
+#form2
+{
+padding-top: 0vw;
+margint-top: 0vw;
+}
+
+table,tr,td
+{
+font-family: "Trebuchet MS",gabirola , serif;
+border: 1px groove ;
+border-collapse: collapse;
+font-size: 1.8vw;
+padding: 8px;
+}
+
+tr:nth-child(even)
+{
+	background-color : #f2f2f2;
+	
+}
+
+
+
