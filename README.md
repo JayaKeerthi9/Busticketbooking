@@ -1,5 +1,5 @@
 # Busticketbooking
-We have done this project using java servlets,HTML,CSS,JS
+I have done this project using java servlets,HTML,CSS,JS
 
 **Home Page**
 
