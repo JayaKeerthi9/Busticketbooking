@@ -1,4 +1,5 @@
 # Busticketbooking
+We have done this project using java servlets,HTML,CSS,JS
 **Home Page**
 
 ![image](https://user-images.githubusercontent.com/101186430/158006981-1b0af80e-91c5-41b9-bfea-eed9f3d13e18.png)
